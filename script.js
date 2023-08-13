@@ -16,8 +16,8 @@ const timerfunction = () => {
        mm = String(now.getMonth() + 1).padStart(2, "0"),
        yyyy = now.getFullYear();
 
-    const enteredday = prompt("enter day").padStart(2, "0");
-    const enteredmonth = prompt("enter month").padStart(2, "0");
+    const enteredday = prompt("Enter Day  (ex. 1 to 31 any) ").padStart(2, "0");
+    const enteredmonth = prompt("Enter Month  (ex. 1 to 12 any)").padStart(2, "0");
 
     now = `${mm}/${dd}/${yyyy}`;
 
